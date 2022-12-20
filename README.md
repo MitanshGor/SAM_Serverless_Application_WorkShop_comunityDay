@@ -312,7 +312,7 @@ Lambda functions generated in AWS.
 <kbd>![image](./lambda_functions.png "Lambda generated")</kbd>
 
 Lets go inside our lambda function
-<kbd>![image](./inner-lambda.png "Lambda generated")</kbd>
+![image](./inner-lambda.png "Lambda generated")
 
 This api points will be available in all the lambda functions. This api's can be used to test the functions from postman.
 
