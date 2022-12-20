@@ -87,7 +87,7 @@ Because AWS SAM integrates with other AWS services, creating serverless applicat
 - Great debugging and testing utilities
 - Verbose configuration
 
-<kbd>![alt text](/sam-help.png "Folder Directory")</kbd>
+<kbd>![image](/sam-help.png "Folder Directory")</kbd>
 
 ### [AWS CDK](https://docs.aws.amazon.com/cdk/v2/guide/getting_started.html)
 
@@ -104,11 +104,11 @@ Download a sample application
 
 This command creates a directory with the name that you provided as the project name.
 
-<kbd>![alt text](/sam_init1.png "Project Init 1")</kbd>
+<kbd>![image](/sam_init1.png "Project Init 1")</kbd>
 
-<kbd>![alt text](/sam-app-2.png "project Init 2")</kbd>
+<kbd>![image](/sam-app-2.png "project Init 2")</kbd>
 
-<kbd>![alt text](/sam-app-3.png "Folder Directory")</kbd>
+<kbd>![image](/sam-app-3.png "Folder Directory")</kbd>
 
 The contents of the project directory are similar to the following:
 
@@ -152,11 +152,11 @@ Build Succeeded
        └── template.yaml
 ```
 
-<kbd>![alt text](/sam-build.png "Folder Directory")</kbd>
+<kbd>![image](/sam-build.png "Folder Directory")</kbd>
 
 ### [Understand .yml File](https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/sam-specification-template-anatomy.html)
 
-<kbd>![alt text](/yml_1.png "Folder Directory")</kbd>
+<kbd>![image](/yml_1.png "Folder Directory")</kbd>
 
 - This is the SAM template that represents the architecture of your serverless application.
 - The AWSTemplateFormatVersion identifies the capabilities of the template
@@ -168,7 +168,7 @@ Build Succeeded
 
 __Resources__ declares the AWS resources that you want to include in the stack. In AWS SAM templates the Resources section can contain a combination of AWS CloudFormation resources and AWS SAM resources.
 
-<kbd>![alt text](/yml-resource.png "Folder Directory")</kbd>
+<kbd>![image](/yml-resource.png "Folder Directory")</kbd>
 
 ### Adding Dynamo DB
 
@@ -283,7 +283,7 @@ Resources:
 ### ``` 3. sam validate ```
 
 Verifies whether an AWS SAM template file is valid.
-<kbd>![alt text](/sam-validate.png "Folder Directory")</kbd>
+<kbd>![image](/sam-validate.png "Folder Directory")</kbd>
 
 ### ``` 4. sam deploy --guided ```
 
@@ -291,28 +291,28 @@ This command deploys your application to the AWS Cloud. It takes the deployment 
 
 If your application created an HTTP endpoint, the outputs that sam deploy generates also show you the endpoint URL for your test application
 
-<kbd>![alt text](/sam-deploy-guide1.png "Folder Directory")</kbd>
+<kbd>![image](/sam-deploy-guide1.png "Folder Directory")</kbd>
 
-<kbd>![alt text](/sam-deploy-guide2.png "Folder Directory")</kbd>
+<kbd>![image](/sam-deploy-guide2.png "Folder Directory")</kbd>
 
-<kbd>![alt text](/sam-deploy-guide3.png "Folder Directory")</kbd>
+<kbd>![image](/sam-deploy-guide3.png "Folder Directory")</kbd>
 
-<kbd>![alt text](/sam-deploy-guide4.png "Folder Directory")</kbd>
+<kbd>![image](/sam-deploy-guide4.png "Folder Directory")</kbd>
 
 ### ``` 5. Check Deployment Success or not ```
 
 
 Cloud Formation Stack generated in AWS.
-<kbd>![alt text](/stack-generated.png "Lambda generated")</kbd>
+<kbd>![image](/stack-generated.png "Lambda generated")</kbd>
 
 Dynamo DB table generated in AWS.
-<kbd>![alt text](/DynamoDb-table.png "Dynamo DB table generated")</kbd>
+<kbd>![image](/DynamoDb-table.png "Dynamo DB table generated")</kbd>
 
 Lambda functions generated in AWS.
-<kbd>![alt text](/lambda_functions.png "Lambda generated")</kbd>
+<kbd>![image](/lambda_functions.png "Lambda generated")</kbd>
 
 Lets go inside our lambda function
-<kbd>![alt text](/inner-lambda.png "Lambda generated")</kbd>
+<kbd>![image](/inner-lambda.png "Lambda generated")</kbd>
 
 This api points will be available in all the lambda functions. This api's can be used to test the functions from postman.
 
