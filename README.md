@@ -317,4 +317,3 @@ Lets go inside our lambda function
 This api points will be available in all the lambda functions. This api's can be used to test the functions from postman.
 
 The logs of the apis can be reviewed from cloudWatch.
-
